@@ -1,0 +1,93 @@
+.hero
+ {
+    background: linear-gradient(rgba(20,20,20,.8),
+                                rgba(20,20,20,.8)),
+                                url(assets/cal1.png);
+    text-align:center;
+    width:100%;
+    height:auto;
+    line-height:100px;
+    font-family: 'Lato',sans-serif;
+}
+
+.underline
+{
+    text-decoration: underline;
+}
+
+.form-control 
+{
+    border: 3px solid #616161;
+}
+
+.btn 
+{
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+
+footer{
+    background-color: #1E1E1E;
+    width:100%;
+    display:block;
+    color:#f7f7f7;
+    height:auto; 
+}
+
+#toTop{ 
+    position: fixed;
+    bottom: 38px;
+    right: 10px;
+    cursor: pointer; 
+    display: none;
+}
+
+textarea {  
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+    width: 100%;
+    height: 400px;
+}
+
+.img-center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:transparent;
+}
+
+#follow-us{
+    padding-top:50px;
+}
+
+#about{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.nav>li>a:hover{
+    background-color: #00897b;
+    }
+
+.nav li a:hover{
+    background-color: #00897b;
+}
+
+.nav>li>a:focus{
+
+}
+
+.text-center
+{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-big
+{
+    font-size: 50px;
+    font-weight: bolder;
+}
